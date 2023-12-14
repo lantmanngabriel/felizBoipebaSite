@@ -224,7 +224,7 @@ button {
     padding: 1em 2em;
     vertical-align: middle;
     position: relative;
-    text-transform: uppercase;
+    text-transform: lowercase;
     z-index: 1;
     -webkit-backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
@@ -232,6 +232,7 @@ button {
     overflow: hidden;
     min-width: 200px;
     background: transparent;
+    font-family: Raleway, sans-serif;;
 }
 .button--itzel::before {
     content: '';
@@ -268,10 +269,10 @@ button {
 }
 .button--itzel .button__icon {
     position: absolute;
-    top: 110%;
+    top: 100%;
     left: 50%;
-    padding: 20px;
-    font-size: 20px;
+    padding: 25px;
+    font-size: 16px;
     -webkit-transform: translate3d(-50%, 0, 0);
     transform: translate3d(-50%, 0, 0);
 }
@@ -430,7 +431,7 @@ button {
 
 .navbar a {
 
-    text-transform: uppercase;
+    text-transform: lowercase;
 
     outline: none;
 
@@ -465,14 +466,10 @@ button {
 }
 
 .navbar-brand {
-
     font-size: 25px;
-
     font-weight: 900;
-
     margin-top: 5px;
     letter-spacing: -1px;
-
 }
 
 .nav_mask {
@@ -485,10 +482,8 @@ button {
 
 .navbar-nav>li>a {
 
-    font-size: 18px;
-
+    font-size: 17px;
     font-weight: 300;
-
     padding-top: 21px;
 
 }
@@ -837,7 +832,7 @@ button {
 }
 .description h2 {
     font-size: 60px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: -1px;
     font-weight: 800;
     display: block;
@@ -864,11 +859,12 @@ button {
 }
 .details {
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 5px;
     font-weight: 700;
     display: inline-block;
     margin-right: 15px;
+    font-family: Raleway, sans-serif;
 }
 .details .fa,
 .details p {
@@ -996,8 +992,8 @@ ul.stats {
 }
 ul.stats li.icon_tur {
     list-style: none;
-    font-size: 40px;
-    margin-top: 0px;
+    font-size: 15px;
+    margin-top: 40px;
     display: inline-table;
     margin-left: 3%;
     margin-right: 3%;
@@ -1026,7 +1022,7 @@ ul.stats li.icon_tur {
     padding-top: 20px;
     font-size: 15px;
     font-weight: 300;
-    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing: 1px;
     font-weight: 300;
     width: 100%;
@@ -1035,17 +1031,18 @@ ul.stats li.icon_tur {
 .about_columns {
     text-align: left;
     width: 90%;
-    margin-left: 10%;
+    margin-left: 11%;
     list-style-type: circle;
     display: block;
     font-weight: 300;
 }
 .about_columns .list {
-    width: 40%;
+    width: 80%;
     margin-left: 2%;
     margin-right: 2%;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
 .title_tab {
     width: 97%;
@@ -1074,7 +1071,7 @@ ul.stats li.icon_tur {
     display: inline-block;
     margin-top: -5px;
     font-size: 33px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     letter-spacing: -1px;
 }
@@ -2122,7 +2119,7 @@ figure.parkhotel_img:hover img {
 }
 
 .contact_information {
-    width: 50%;
+    width: 60%;
     display: block;
     vertical-align: top;
     margin: 25px auto;

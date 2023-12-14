@@ -138,7 +138,7 @@ a.accordion_button:hover,
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover,
 #filterOptions li a {
-    color: #fff
+    color: #f0d6b4
 }
 .menu-wrap,
 .news_row,
@@ -159,7 +159,7 @@ a.accordion_button,
 .testimonials_carousel,
 .testimonials .carousel-indicators .photo_carousel_ind.active,
 .about_columns .list .menu_list {
-    border-color: #fff
+    border-color: #254441
 }
 /* !------ SVG ------
    ================================================== */
@@ -191,7 +191,7 @@ a.navicon,
 .contact_information,
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
 .panel-collapse p b {
-    color: #000
+    color: #f0d6b4
 }
 .eventime_button:hover,
 .navicon .button--itzel,
@@ -247,7 +247,7 @@ footer,
    ================================================== */
 
 .nav_mask{
-    background: #fff;
+    background: #254441;
 }
 
 
@@ -299,7 +299,7 @@ footer,
     background-image: url('../images/bg_gallery.jpg')
 }
 .contact {
-    background-image: url('../images/contacts.svg')
+    background-image: url('../images/Ambiente-3.jpg')
 }
 .tab-content {
     background: #838383
